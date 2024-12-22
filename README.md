@@ -14,5 +14,8 @@ For user engagement, the app supports interactive functionalities such as liking
 *LoginPage* :
 ![Screenshot 2024-12-22 194004](https://github.com/user-attachments/assets/f0874f4a-cea0-4e0e-9cc6-f6df8cce1e2a)
 
-"RegistrationPage* :
+*RegistrationPage* :
+![Screenshot 2024-12-22 194014](https://github.com/user-attachments/assets/3761768d-0889-4bdd-b8f0-ead6908ae044)
+
+*Inside* :
 
