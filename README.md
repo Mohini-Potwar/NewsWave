@@ -18,4 +18,6 @@ For user engagement, the app supports interactive functionalities such as liking
 ![Screenshot 2024-12-22 194014](https://github.com/user-attachments/assets/3761768d-0889-4bdd-b8f0-ead6908ae044)
 
 *Inside* :
+![Screenshot 2024-12-22 193921](https://github.com/user-attachments/assets/9387d36b-3ae4-4c34-90bc-2c737a2546ee)
+
 
