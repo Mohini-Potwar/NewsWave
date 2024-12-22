@@ -1,0 +1,142 @@
+/* Outer Background */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+ 
+}
+
+.outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('image.png'); /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Login Container */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    backdrop-filter: blur(5px); /* Optional for extra blur effect */
+}
+
+/* Login Card with Glassmorphism Effect */
+.login-card {
+    background: rgba(255, 255, 255, 0.1); /* Transparent effect */
+    border-radius: 15px;
+    padding: 40px;
+    width: 300px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px); /* Adjust blur for glass effect */
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Avatar */
+.avatar {
+    background-image: url('download.jpeg'); /* Replace with the correct path to the image */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto 20px;
+}
+
+
+/* Form Group */
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    width: 90%;
+    padding: 10px 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    color: #0c0c0c;
+    font-size: 1rem;
+    outline: none;
+}
+
+/* Icons */
+.icon {
+    position: absolute;
+    left: 8px;
+    top: 36px;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.icon-email::before {
+    content: "📧";
+}
+
+.icon-password::before {
+    content: "🔒";
+}
+
+/* Options */
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: black;
+}
+
+.form-options label {
+    display: flex;
+    align-items: center;
+}
+
+.form-options input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.form-options a {
+    color: black;
+    text-decoration: none;
+}
+
+.form-options a:hover {
+    color: #fff;
+}
+
+/* Login Button */
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    background: linear-gradient(90deg, #0072ff, #00c6ff);
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.login-btn:hover {
+    background: linear-gradient(90deg, #008bff, #00d6ff);
+}
+
+/* Footer Link */
+.form-footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.form-footer a {
+    color: black;
+    text-decoration: underline;
+}

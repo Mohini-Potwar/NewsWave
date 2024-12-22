@@ -1,0 +1,20 @@
+<div class="container">
+  <app-navbar (categorySelected)="fetchArticlesByCategory($event)"></app-navbar>
+  <div class="content">
+    <div *ngIf="loading">Loading news...</div>
+    <div *ngIf="!loading && articles.length === 0">No news available.</div>
+
+    <div class="news-container">
+      <div *ngFor="let article of articles" class="news-article">
+        <h2>{{ article.title }}</h2>
+        <img 
+          [src]="article.urlToImage && article.urlToImage.startsWith('http') ? article.urlToImage : 'assets/default-image.jpg'" 
+          alt="{{ article.title }}" 
+          class="news-image"
+        />
+        <p>{{ article.description }}</p>
+        <a [href]="article.url" target="_blank" rel="noopener noreferrer">Read more</a>
+      </div>
+    </div>
+  </div>
+</div>

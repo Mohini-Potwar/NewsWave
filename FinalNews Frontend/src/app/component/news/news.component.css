@@ -1,0 +1,79 @@
+/* Main container for the overall layout */
+.container {
+  display: flex; /* Use flexbox to align items */
+  height: 100vh; /* Full height of the viewport */
+}
+
+/* Styles for the left-side navbar */
+app-navbar {
+  width: 200px; /* Fixed width for the navbar */
+  background-color: white; /* Dark background for the navbar */
+  color: #fff; /* White text color */
+  padding: 0px; /* Padding inside the navbar */
+}
+
+/* Content area to the right of the navbar */
+.content {
+  flex: 1; /* Take remaining space */
+  padding: 20px; /* Padding for the content area */
+  background-color: #f4f4f4; /* Light background for content */
+}
+
+/* Styles for loading and no articles messages */
+.content > div {
+  margin-bottom: 20px; /* Spacing below messages */
+  font-size: 18px; /* Font size for messages */
+}
+
+/* Styles for the news container */
+.news-container {
+  display: grid; /* Use grid layout */
+  grid-template-columns: repeat(3, 1fr); /* 3 columns in a row */
+  gap: 20px; /* Space between grid items */
+}
+
+/* Styles for each news article */
+.news-article {
+  background-color: white; /* White background for articles */
+  border: 1px solid #ddd; /* Light border around articles */
+  border-radius: 5px; /* Rounded corners */
+  padding: 15px; /* Padding inside articles */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for articles */
+.news-article:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+/* Styles for images inside articles */
+.news-image {
+  width: 100%; /* Full width of the article */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Rounded corners for images */
+}
+
+/* Title styles for articles */
+.news-article h2 {
+  font-size: 1.25em; /* Font size for titles */
+  margin: 10px 0; /* Margin around titles */
+}
+
+/* Description styles */
+.news-article p {
+  font-size: 1em; /* Font size for descriptions */
+  color: #333; /* Dark gray color for text */
+}
+
+/* Link styles for 'Read more' */
+.news-article a {
+  display: inline-block; /* Inline block for proper spacing */
+  margin-top: 10px; /* Margin above link */
+  color: #007bff; /* Bootstrap primary color */
+  text-decoration: none; /* Remove underline */
+}
+
+.news-article a:hover {
+  text-decoration: underline; /* Underline on hover */
+}

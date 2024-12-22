@@ -1,0 +1,51 @@
+/* Styles for the sidebar container */
+.sidebar {
+  width: 250px; /* Fixed width for the sidebar */
+  background-color:white; /* Dark background color */
+  color: black; /* White text color */
+  padding: 20px; /* Padding inside the sidebar */
+  border-radius: 5px; /* Rounded corners */
+  /* Subtle shadow */
+}
+
+/* Header style for the sidebar */
+.sidebar h3 {
+  font-size: 1.5em; /* Font size for the header */
+  margin-bottom: 15px; /* Space below the header */
+}
+
+/* Styles for the list of categories */
+.sidebar ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
+
+/* Styles for each category item */
+.sidebar li {
+  padding: 10px; /* Padding for category items */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+  font-weight: 100;
+  font-size: larger;
+  font: 200;
+}
+
+/* Hover effect for category items */
+.sidebar li:hover {
+  background-color: #e7dddd; /* Darker background on hover */
+}
+
+/* Active category style (optional) */
+.sidebar li.active {
+  background-color: #007bff; /* Highlight active category */
+  color: #fff; /* Ensure text remains white */
+}
+
+/* Responsive adjustments (if necessary) */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%; /* Full width on smaller screens */
+    padding: 10px; /* Reduced padding */
+    height: 100%;
+  }
+}

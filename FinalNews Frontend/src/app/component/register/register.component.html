@@ -1,0 +1,27 @@
+<div class="register-container">
+    <div class="login-card">
+      <h2>Register</h2>
+      <form (ngSubmit)="submitRegistration()">
+        <div class="form-group">
+          <label for="fullName">Name</label>
+          <input type="text" [(ngModel)]="fullName" name="fullName" id="fullName" placeholder="Enter your name" required />
+        </div>
+        <div class="form-group">
+          <label for="emailAddress">Email</label>
+          <input type="email" [(ngModel)]="emailAddress" name="emailAddress" id="emailAddress" placeholder="Enter your email" required />
+        </div>
+        <div class="form-group">
+          <label for="userPassword">Password</label>
+          <input type="password" [(ngModel)]="userPassword" name="userPassword" id="userPassword" placeholder="Enter your password" required />
+        </div>
+        <div class="form-group">
+          <label for="confirmUserPassword">Confirm Password</label>
+          <input type="password" [(ngModel)]="confirmUserPassword" name="confirmUserPassword" id="confirmUserPassword" placeholder="Confirm your password" required />
+        </div>
+        <button type="submit" class="btn">Register</button>
+        <p *ngIf="message" class="message">{{ message }}</p>
+        <p class="form-footer">Already have an account? <a routerLink="/login">Login</a></p>
+      </form>
+    </div>
+  </div>
+  

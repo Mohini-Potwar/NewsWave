@@ -1,0 +1,9 @@
+<div class="sidebar">
+    <h3>News Categories</h3>
+    <ul>
+      <li *ngFor="let category of categories" (click)="selectCategory(category)">
+        <h4>{{ category }}</h4>
+      </li>
+    </ul>
+  </div>
+  
