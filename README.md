@@ -8,7 +8,11 @@ To enhance usability, the app includes a category filter, enabling users to brow
 
 For user engagement, the app supports interactive functionalities such as liking, disliking, commenting, and sharing articles, encouraging a more connected experience.The backend is powered by Spring Boot, providing robust API support, while the database configuration is flexible, supporting both MySQL and H2. The frontend, built using Angular, ensures a responsive and intuitive interface.
 
-HomePage :
+*HomePage* :
 ![HomePage](https://github.com/user-attachments/assets/d7ca93ee-b953-4ed1-bdf0-d213aea7fd36)
 
-LoginPage :
+*LoginPage* :
+![Screenshot 2024-12-22 194004](https://github.com/user-attachments/assets/f0874f4a-cea0-4e0e-9cc6-f6df8cce1e2a)
+
+"RegistrationPage* :
+
